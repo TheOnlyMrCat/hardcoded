@@ -6,6 +6,9 @@ ul {
   padding: 0px;
   width: 60px;
   background-color: dodgerblue;
+  height: 100%;
+  position: fixed;
+  overflow: auto;
 }
 li a{
   display: block;
