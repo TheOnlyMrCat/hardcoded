@@ -1,0 +1,17 @@
+* {box-sizing: border-box}
+
+ul {
+  list-style-type: none;
+  margin: 0px;
+  padding: 0px;
+  width: 60px;
+  background-color: dodgerblue;
+}
+li a{
+  display: block;
+  color: navy;
+}
+li a:hover {
+  background-color: midnightblue;
+  color: white;
+}
