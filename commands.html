@@ -2,6 +2,7 @@
 <html>
   <head>
     <title>Encoded bot | Commands</title>
+    <link rel="stylesheet" type="text/css" href="main.css">
   </head>
   <body>
     <nav id="sidenav">
@@ -20,6 +21,19 @@
         </tr>
         <tr>
           <td>-playing "game"</td><td>Sets the bot's playing message to "game"</td><td class="example">-playing Something awesome</td>
+        </tr>
+        <tr>
+          <td>-terminate</td><td>Terminates the bot's current running state, either to code or debug</td><td>-terminate</td>
+        </tr>
+      </table>
+      <h2>Moderator commands</h2>
+      <h4>Only people with the Encoded Admin role in the current server can execute these commands</h4>
+      <table>
+        <tr>
+          <th>Command</th><th>Description</th><th>Example</th>
+        </tr>
+        <tr>
+          <td>-purge "messages"</td><td>Deletes the most recent "messages" messages from the current channel's chat</td><td>-purge 100</td>
         </tr>
       </table>
     </article>
